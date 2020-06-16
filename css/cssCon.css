@@ -1,0 +1,309 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+h1,h2,h3,a,p{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100; 
+}
+.container{
+    width: 100%;
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    min-height: 7.5vw;
+    width: 40%;
+    margin: 0 30px; 
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo{
+    flex-grow: 1;
+    text-align: center;
+}
+#titulo h1{
+    margin: 2vw 0;
+    font-family: 'Baskervville', serif;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px rgba(248, 248, 255, 0.5);
+    color: rgba(248, 248, 255, 0.9);
+    filter: blur(.45px);
+    font-size: 2rem;
+}
+#titulo h1:hover{
+    cursor: pointer;
+    color: white;
+    filter: blur(0px);
+    filter: brightness(100%);
+}
+#menu{
+    max-width: 100%;
+    display: flex;
+    flex-grow: 3;
+    justify-content: space-around;
+}
+#menu a{
+    font-family: 'Rajdhani', sans-serif;
+    color: gainsboro;
+    font-size: 1.3em;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 7.2vw;
+    width: 20%;
+}
+
+#menu a:hover{
+    cursor: pointer;
+    color: ghostwhite;
+}
+#actual{
+    text-align: center;
+    width: 0 auto;
+    border-right: 1vw solid transparent;
+    border-top: 6vw solid transparent;
+    border-left: 1vw solid transparent;
+    border-bottom: 1.5vw solid ghostwhite;
+    top: 0;
+    right: 60px;
+    left: -60px;
+    bottom: 0;
+    position: relative;
+}
+/*Contenido*/
+.contenido{
+    width: 100%;
+    margin-top: 32px;
+}
+.espacios{
+    display: block;
+    position: relative;
+    bottom: 29px;
+    width: 100%;
+    height: 1.9rem;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+.contenido .cevallitos{
+    position: relative;
+    bottom: 550px;
+    left: 215px;
+    width: 21%;
+    height: auto;
+    border-radius: 10px;
+    filter: drop-shadow(10px 3px 4px rgba(0, 0, 0, 0.534));
+}
+/*Footer*/
+.redes{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+    margin: 0 auto; 
+    padding-bottom: 50px;
+}
+.redes a img{
+    filter: drop-shadow(1px 1px 1px black);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;   
+    transform:scale(1);
+    -ms-transform:scale(1);
+}
+.redes a img:hover{
+    transform:scale(0.8);
+            -ms-transform:scale(0.8); 
+}
+.footer{
+    width: 88%; 
+    border-bottom: 1px solid rgba(248, 248, 255, 0.534);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.tituloFooter{
+    color: ghostwhite;
+    filter: blur(.51px);
+    font-family: 'Baskervville', serif;
+    font-size: 1rem;
+    width: 55%;
+}
+.footer span{
+    font-size: 2rem;
+    color: gray;
+    filter: blur(.51px);
+    padding-right: 20px;
+}
+.menuFooter{
+    font-size: 1.2rem;
+    font-family: 'Rajdhani', sans-serif;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.menuFooter a{
+    text-decoration: none;
+    margin: 0 auto;
+    color: gainsboro;
+    padding-top: 20px;
+}
+.menuFooter a:hover{
+    cursor: pointer;
+    color: ghostwhite;
+    font-family: 'Rajdhani', sans-serif;
+}
+.contenedor{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Rajdhani', sans-serif;
+    flex-wrap: wrap;
+}
+.miNombre{
+    padding-top: 2vw;
+}
+.terminos{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+.miNombre h5{
+    color:rgba(220, 220, 220, 0.377);
+    font-weight: 100;
+    font-size: 1rem;
+}
+.miNombre a{
+    text-decoration: none;
+    color: rgba(220, 220, 220, 0.377);
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Rajdhani', sans-serif;
+}
+.miNombre a:hover{
+    color:white; 
+}
+.terminos a{
+    padding-left:5px;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 1rem;
+    color: rgba(220, 220, 220, 0.377);
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+}
+.final{
+    background-color: black;
+}
+.final1{
+    background-color: black;
+    display: flex;
+}
+/*Dispositivos Moviles*/
+@media screen and (max-width: 748px){
+    .menuFooter a{
+        padding-top: 0px; 
+    }
+    .menuFooter{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: medium;
+    }
+    .tituloFooter h1{
+        font-size: medium;
+        width: 70%;
+    }
+    .footer{
+        padding-bottom: 8vw;
+    }
+    .footer span{
+        font-size: medium;
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .miNombre{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto; 
+    }
+    .terminos{
+        text-align: center;
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-self: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .terminos a{
+        font-size: smaller;
+    }
+    .cajaTitulo h1{
+        font-size: 1rem;
+    }
+    .footer .menuFooter a{
+        padding-top: 5px;
+        font-size: x-small;
+    }
+    .cevallitos{
+        position: fixed;
+        opacity: 0;
+    }
+    .redes{
+        height: 4rem;
+    }
+    #titulo h1{
+        font-size: x-large;
+    }
+    #menu a{
+        font-size: x-small;
+    }
+    .contenido .cevallitos{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 21%;
+        height: auto;
+        border-radius: 10px;
+        filter: drop-shadow(10px 3px 4px rgba(0, 0, 0, 0.534));
+    }
+    .espacios{
+        height:2.9rem;
+        bottom: 38px;
+    }
+    #actual{
+        left: -26px;
+    }
+}

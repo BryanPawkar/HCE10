@@ -1,0 +1,66 @@
+body, html{
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: ghostwhite;
+    text-align: center;
+}
+.carta{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    height: auto;
+    background-color: gainsboro;
+    margin: 2% auto;
+    border-bottom-left-radius: 15%;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.315));
+    
+}
+.carta h1, h2{
+    margin: 0 15%;
+    padding: 20px 0;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.carta h1{
+    font-family: 'Baskervville', serif;
+    text-transform: initial;
+}
+.carta h2{
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: initial;
+    font-size: 1.5rem;
+}
+.carta img{
+    width: 70%;
+    height: auto;
+    margin: 0 15%;
+    position: relative;
+    padding: 0;
+    object-fit: contain;
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.315));
+}
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.315));
+    color: gray;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: initial;
+}
+@media screen and (max-width: 748px){
+    .carta{
+        width: 85%;
+    }
+    .carta h1{
+        margin: 0 10%;
+        font-size: 1.5em;
+    }
+    .carta h2{
+        font-size: 1.2em;
+    }
+}
