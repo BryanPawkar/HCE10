@@ -243,13 +243,6 @@ h1,h2,h3,a,p{
 .miNombre{
     padding-top: 2vw;
 }
-.terminos{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2vw;
-}
 .miNombre h5{
     color:rgba(220, 220, 220, 0.377);
     font-weight: 100;
@@ -270,7 +263,7 @@ h1,h2,h3,a,p{
     display: flex;
     align-self: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .terminos a{
     padding-left:5px;
